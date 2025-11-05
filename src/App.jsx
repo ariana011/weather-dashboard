@@ -1,12 +1,14 @@
+import { Routes, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
+import CityDetail from "./components/CityDetail";
 
-function App() {
+export default function App() {
   return (
     <div>
-      <Dashboard />
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/city/:cityName" element={<CityDetail />} />
+      </Routes>
     </div>
   );
 }
-
-export default App;
-
