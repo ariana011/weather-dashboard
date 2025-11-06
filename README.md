@@ -30,9 +30,6 @@ The following **optional** features are implemented:
   - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
 
   
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
